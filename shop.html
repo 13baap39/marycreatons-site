@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shop Stoles — Mary Creations</title>
+  <meta name="description" content="Browse Mary Creations stoles. Buy on Meesho or order on WhatsApp." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/app.js"></script>
+  <script defer src="assets/js/shop.js"></script>
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main class="container shop">
+    <div class="section-head">
+      <h1>Shop</h1>
+      <a class="badge subtle" id="meesho-badge" target="_blank" rel="noopener">Available on Meesho</a>
+    </div>
+
+    <div class="filters">
+      <div class="search">
+        <input id="search-input" type="search" placeholder="Search stoles by name, material, color..." aria-label="Search products">
+      </div>
+      <div class="price">
+        <label for="price-min">Price range (₹)</label>
+        <div class="range">
+          <input id="price-min" type="range" min="0" max="5000" step="50" value="0" />
+          <input id="price-max" type="range" min="0" max="5000" step="50" value="5000" />
+        </div>
+        <div class="range-values">
+          <span id="price-min-val">₹0</span> — <span id="price-max-val">₹5000</span>
+        </div>
+      </div>
+      <div class="toggles">
+        <label class="checkbox"><input type="checkbox" id="in-stock-only" /> In stock only</label>
+      </div>
+    </div>
+
+    <div id="shop-grid" class="product-grid"></div>
+    <div id="empty-state" class="empty hidden">No products match your filters.</div>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <a id="whatsapp-float" class="wa-float" target="_blank" aria-label="Chat on WhatsApp" rel="noopener">WhatsApp</a>
+</body>
+</html>

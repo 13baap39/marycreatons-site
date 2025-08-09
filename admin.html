@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin — Mary Creations</title>
+  <meta name="description" content="Manage products and site settings." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/app.js"></script>
+  <script defer src="assets/js/admin.js"></script>
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main class="container admin">
+    <h1>Admin</h1>
+
+    <section class="panel">
+      <h2>Site Settings</h2>
+      <form id="settings-form">
+        <div class="grid-2">
+          <label>Brand Name <input name="brandName" required></label>
+          <label>Tagline <input name="tagline"></label>
+        </div>
+        <div class="grid-2">
+          <label>WhatsApp Number <input name="whatsapp" placeholder="+91XXXXXXXXXX"></label>
+          <label>Email <input name="email" placeholder="you@example.com"></label>
+        </div>
+        <label>Meesho Shop URL <input name="meeshoShopUrl" placeholder="https://www.meesho.com/..."></label>
+        <div class="grid-3">
+          <label>Instagram <input name="instagram" placeholder="https://instagram.com/..."></label>
+          <label>Facebook <input name="facebook" placeholder="https://facebook.com/..."></label>
+          <label>Twitter/X <input name="twitter" placeholder="https://x.com/..."></label>
+        </div>
+        <div class="grid-2">
+          <label>Address <input name="address"></label>
+          <label>GST Number <input name="gst"></label>
+        </div>
+        <div class="grid-2">
+          <label>Default Theme
+            <select name="theme">
+              <option value="light">Light</option>
+              <option value="dark">Dark</option>
+              <option value="system">System</option>
+            </select>
+          </label>
+          <label>Base Font Size
+            <select name="fontScale">
+              <option value="1">Normal</option>
+              <option value="1.1">Large</option>
+              <option value="1.2">Extra Large</option>
+            </select>
+          </label>
+        </div>
+        <div class="actions">
+          <button type="submit" class="btn primary">Save to Preview</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="panel">
+      <h2>Products</h2>
+      <div class="actions">
+        <button id="add-product" class="btn secondary">Add Product</button>
+        <input id="import-products" type="file" accept="application/json" hidden />
+        <button id="import-products-btn" class="btn">Import JSON</button>
+        <button id="export-products" class="btn">Export JSON</button>
+      </div>
+      <div id="products-admin" class="admin-list"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Reviews</h2>
+      <div class="actions">
+        <input id="import-reviews" type="file" accept="application/json" hidden />
+        <button id="import-reviews-btn" class="btn">Import JSON</button>
+        <button id="export-reviews" class="btn">Export JSON</button>
+      </div>
+      <div id="reviews-admin" class="admin-list"></div>
+      <button id="add-review" class="btn secondary">Add Review</button>
+    </section>
+
+    <section class="panel">
+      <h2>Publish</h2>
+      <p>Click the buttons to download updated JSON files. Then upload them to the data/ folder in your GitHub repo:</p>
+      <div class="actions">
+        <button id="export-settings" class="btn primary">Download settings.json</button>
+        <button id="export-products-2" class="btn">Download products.json</button>
+        <button id="export-reviews-2" class="btn">Download reviews.json</button>
+      </div>
+      <p class="muted">Tip: You can also commit these files directly on GitHub: open each file in data/, click Edit, paste the new JSON, and Commit.</p>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <a id="whatsapp-float" class="wa-float" target="_blank" aria-label="Chat on WhatsApp" rel="noopener">WhatsApp</a>
+</body>
+</html>

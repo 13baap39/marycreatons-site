@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reviews — Mary Creations</title>
+  <meta name="description" content="What customers say about Mary Creations stoles." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      const list = document.getElementById('reviews-list');
+      try {
+        const res = await fetch('data/reviews.json', { cache: 'no-store' });
+        const data = await res.json();
+        (data.reviews || []).forEach(r => {
+          const li = document.createElement('li');
+          li.className = 'review';
+          li.innerHTML = `
+            <div class="stars" aria-label="${r.rating} out of 5 stars">${'★'.repeat(r.rating)}${'☆'.repeat(5-r.rating)}</div>
+            <blockquote>${r.text}</blockquote>
+            <div class="author">— ${r.author}</div>
+          `;
+          list.appendChild(li);
+        });
+      } catch (e) {
+        list.innerHTML = '<li>Reviews will appear here.</li>';
+      }
+    });
+  </script>
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main class="container prose">
+    <h1>Customer Reviews</h1>
+    <ul id="reviews-list" class="reviews"></ul>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <a id="whatsapp-float" class="wa-float" target="_blank" aria-label="Chat on WhatsApp" rel="noopener">WhatsApp</a>
+</body>
+</html>
