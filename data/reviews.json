@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Priya Sharma",
+    "rating": 5,
+    "comment": "Absolutely love my Mary Creations stole! The quality is amazing and it's so soft. Perfect for both casual and formal wear.",
+    "date": "2024-01-15",
+    "verified": true,
+    "productId": 1
+  },
+  {
+    "id": 2,
+    "name": "Anita Gupta",
+    "rating": 5,
+    "comment": "Beautiful stoles with great fabric quality. Fast delivery and excellent customer service. Highly recommended!",
+    "date": "2024-01-10",
+    "verified": true,
+    "productId": 2
+  },
+  {
+    "id": 3,
+    "name": "Rakhi Patel",
+    "rating": 4,
+    "comment": "Good quality stole, exactly as shown in pictures. Packaging was also very nice.",
+    "date": "2024-01-05",
+    "verified": true,
+    "productId": 1
+  },
+  {
+    "id": 4,
+    "name": "Meera Singh",
+    "rating": 5,
+    "comment": "Mary Creations has the best stoles! I've ordered multiple times and always satisfied with the quality.",
+    "date": "2023-12-28",
+    "verified": true,
+    "productId": 3
+  },
+  {
+    "id": 5,
+    "name": "Kavya Reddy",
+    "rating": 5,
+    "comment": "Excellent quality and beautiful designs. The stole is very comfortable to wear. Will definitely order again!",
+    "date": "2023-12-20",
+    "verified": true,
+    "productId": 2
+  },
+  {
+    "id": 6,
+    "name": "Deepika Jain",
+    "rating": 4,
+    "comment": "Nice collection of stoles. Good quality fabric and reasonable pricing. Happy with my purchase.",
+    "date": "2023-12-15",
+    "verified": true,
+    "productId": 4
+  }
+]
