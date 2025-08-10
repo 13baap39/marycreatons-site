@@ -1,0 +1,22 @@
+{
+  "brandName": "Mary Creations",
+  "tagline": "Woven with Love",
+  "description": "Premium women's stoles crafted for everyday elegance.",
+  "whatsapp": "+917860861434",
+  "email": "contact@marycreations.shop",
+  "meeshoShopUrl": "https://www.meesho.com/shop/Mary-Creations",
+  "instagram": "https://instagram.com/marycreations.shop",
+  "facebook": "",
+  "twitter": "",
+  "address": "India",
+  "gst": "",
+  "defaultTheme": "light",
+  "primaryColor": "#7b2e2b",
+  "secondaryColor": "#c48c5a",
+  "hero": {
+    "title": "Mary Creations",
+    "subtitle": "Woven with Love",
+    "description": "Premium women's stoles crafted for everyday elegance.",
+    "image": "https://placehold.co/640x800?text=Mary+Creations+Stoles"
+  }
+}

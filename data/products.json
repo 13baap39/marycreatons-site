@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "name": "Elegant Chiffon Stole",
+    "price": 899,
+    "originalPrice": 1299,
+    "material": "Chiffon",
+    "color": "Maroon",
+    "size": "200cm x 70cm",
+    "description": "A beautiful maroon chiffon stole perfect for both casual and formal occasions. Lightweight and breathable.",
+    "images": [
+      "https://placehold.co/400x600?text=Chiffon+Stole+1",
+      "https://placehold.co/400x600?text=Chiffon+Stole+2"
+    ],
+    "inStock": true,
+    "featured": true,
+    "category": "chiffon"
+  },
+  {
+    "id": 2,
+    "name": "Pashmina Comfort Stole",
+    "price": 1299,
+    "originalPrice": 1899,
+    "material": "Pashmina",
+    "color": "Cream",
+    "size": "180cm x 70cm",
+    "description": "Soft cream pashmina stole made from premium fabric. Perfect for winter occasions and elegant wear.",
+    "images": [
+      "https://placehold.co/400x600?text=Pashmina+Stole+1",
+      "https://placehold.co/400x600?text=Pashmina+Stole+2"
+    ],
+    "inStock": true,
+    "featured": true,
+    "category": "pashmina"
+  },
+  {
+    "id": 3,
+    "name": "Silk Blend Luxury Stole",
+    "price": 1599,
+    "originalPrice": 2299,
+    "material": "Silk Blend",
+    "color": "Navy Blue",
+    "size": "190cm x 75cm",
+    "description": "Premium silk blend stole in elegant navy blue. Luxurious feel with a sophisticated look.",
+    "images": [
+      "https://placehold.co/400x600?text=Silk+Stole+1",
+      "https://placehold.co/400x600?text=Silk+Stole+2"
+    ],
+    "inStock": true,
+    "featured": false,
+    "category": "silk"
+  },
+  {
+    "id": 4,
+    "name": "Cotton Comfort Stole",
+    "price": 599,
+    "originalPrice": 899,
+    "material": "Cotton",
+    "color": "Light Pink",
+    "size": "180cm x 65cm",
+    "description": "Comfortable cotton stole in light pink. Perfect for daily wear and summer occasions.",
+    "images": [
+      "https://placehold.co/400x600?text=Cotton+Stole+1",
+      "https://placehold.co/400x600?text=Cotton+Stole+2"
+    ],
+    "inStock": true,
+    "featured": false,
+    "category": "cotton"
+  },
+  {
+    "id": 5,
+    "name": "Designer Print Stole",
+    "price": 1099,
+    "originalPrice": 1599,
+    "material": "Chiffon",
+    "color": "Multi-color",
+    "size": "200cm x 70cm",
+    "description": "Beautiful designer print chiffon stole with multi-color patterns. Great for festive occasions.",
+    "images": [
+      "https://placehold.co/400x600?text=Designer+Stole+1",
+      "https://placehold.co/400x600?text=Designer+Stole+2"
+    ],
+    "inStock": false,
+    "featured": true,
+    "category": "designer"
+  },
+  {
+    "id": 6,
+    "name": "Classic Black Stole",
+    "price": 799,
+    "originalPrice": 1199,
+    "material": "Cotton Silk",
+    "color": "Black",
+    "size": "185cm x 70cm",
+    "description": "Classic black stole in cotton silk blend. Versatile and elegant for any occasion.",
+    "images": [
+      "https://placehold.co/400x600?text=Black+Stole+1",
+      "https://placehold.co/400x600?text=Black+Stole+2"
+    ],
+    "inStock": true,
+    "featured": false,
+    "category": "classic"
+  }
+]
